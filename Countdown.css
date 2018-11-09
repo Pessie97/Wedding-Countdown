@@ -1,5 +1,12 @@
 html{
-    background-image: linear-gradient(to right, red, orange, green, blue, purple);
+    /*background-image: linear-gradient(to right, red, orange, green, blue, purple);
+    background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed; 
+  background-size: cover;
+      */
+    background: url(https://media.giphy.com/media/peAFQfg7Ol6IE/giphy.gif)
+        no-repeat center fixed;
+    background-size: cover;
+    
 }
 
 
@@ -24,6 +31,7 @@ body {font-family: Verdana, sans-serif;}
     width: 100%;
     background: midnightblue;
     text-align: center;
+    opacity: .5;
 }
 
 .month ul {
@@ -57,7 +65,7 @@ body {font-family: Verdana, sans-serif;}
 .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color: #666;
+    color: black;
     text-align: center;
 }
 
@@ -65,6 +73,8 @@ body {font-family: Verdana, sans-serif;}
     padding: 10px 0;
     background: #eee;
     margin: 0;
+    opacity: 0.5;
+    
 }
 
 .days li {
@@ -74,13 +84,15 @@ body {font-family: Verdana, sans-serif;}
     text-align: center;
     margin-bottom: 5px;
     font-size:12px;
-    color: #777;
+    color: black;
+    
 }
 
 .days li .active {
     padding: 5px;
     background: orange;
-    color: white !important
+    color: white !important;
+   
 }
 
 /* Add media queries for smaller screens */
