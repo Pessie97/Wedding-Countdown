@@ -14,12 +14,12 @@ p {
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
-    color:midnightblue;
+    color:lightblue;
 }
 
 h1{
     text-align: center;
-    color:midnightblue;
+    color:lightblue;
 }
 
 * {box-sizing: border-box;}
